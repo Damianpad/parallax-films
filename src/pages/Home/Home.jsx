@@ -1,5 +1,6 @@
 import "./Home.css";
 import Film from "../../components/Film/Film";
+import Footer from "../../components/Footer/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import film1 from "../../assets/img/film1.jpg";
@@ -30,6 +31,10 @@ export const Home = () => {
             <Film film={film3} />
           </section>
           <a>Learn More</a>
+        </section>
+
+        <section>
+            <Footer />
         </section>
       </section>
     </>
