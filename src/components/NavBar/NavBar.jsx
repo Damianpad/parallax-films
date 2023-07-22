@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
     <section className="mainContainer">
       <section className="logoContainer">
-        <NavLink to="/home" className={"logo"}>
+        <NavLink to="/" className={"logo"}>
           Parallax <br />Films
         </NavLink>
         <FontAwesomeIcon icon={faBars} size="4x" fixedWidth className="bars"/>
