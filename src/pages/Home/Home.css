@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap');
+
+.titleContainer h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lexend';
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.carouselContainer {
+    display: flex;
+    align-items: center;
+}
+
+.arrow {
+    padding: 1em;
+}
+
+.aboutInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+}
+
+.aboutInfo p {
+    text-align: left;
+}
+
+.aboutContainer a {
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-family: 'Lexend';
+    padding: 2em;
+}
+
+.aboutContainer a:hover {
+    cursor: pointer;
+}
