@@ -30,11 +30,11 @@ export const Home = () => {
 
             <Film film={film3} />
           </section>
-          <a>Learn More</a>
+          <a href="/about">Learn More</a>
         </section>
 
         <section>
-            <Footer />
+          <Footer />
         </section>
       </section>
     </>
