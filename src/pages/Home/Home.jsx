@@ -10,7 +10,7 @@ import film3 from "../../assets/img/film3.jpg";
 export const Home = () => {
   return (
     <>
-      <section>
+      <section className="filmContainer">
         <Film film={film2} />
       </section>
 

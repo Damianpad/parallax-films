@@ -29,7 +29,7 @@
 }
 
 .linkContainer {
-    display: flex;
+    display: none;
     justify-content: left;
     flex-direction: column;
     align-items: flex-start;
@@ -41,3 +41,21 @@
     font-weight: 400;
     text-transform: uppercase;
 }
+
+        /* Media Query for Laptops and Desktops */
+        @media (min-width: 1025px){
+            .mainContainer {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 100%;
+            }
+            .linkContainer{
+                display: flex;
+                padding: 1em;
+            }
+
+            .bars {
+                display: none;
+            }
+        }

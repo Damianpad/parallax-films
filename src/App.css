@@ -1,5 +1,4 @@
 #root {
-  
 }
 
 
@@ -25,3 +24,12 @@
 .read-the-docs {
   color: #888;
 }
+
+        /* Media Query for Laptops and Desktops */
+        @media (min-width: 1025px){
+          #root {
+            display: flex;
+            }
+            
+      }
+

@@ -13,20 +13,20 @@ const NavBar = () => {
         <FontAwesomeIcon icon={faBars} size="4x" fixedWidth className="bars"/>
       </section>
 
-      {/* <section className="linkContainer">
+      <section className="linkContainer">
         <NavLink to="/home" className={"link"}>
           Films
         </NavLink>
       </section>
 
       <section className="linkContainer">
-        <NavLink to="/home" className={"link"}>
+        <NavLink to="/about" className={"link"}>
           About
         </NavLink>
-        <NavLink to="/home" className={"link"}>
+        <NavLink to="/contact" className={"link"}>
           Contact
         </NavLink>
-      </section> */}
+      </section>
     </ section>
   );
 };

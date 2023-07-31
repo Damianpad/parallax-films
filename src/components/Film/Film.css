@@ -33,3 +33,15 @@ span {
     text-orientation: mixed;
     height: 195px;
 }
+
+
+
+        /* Media Query for Laptops and Desktops */
+        @media (min-width: 1025px){
+            .filmContainer {
+                height: 95vh;
+                padding: 0;
+                margin: 0.4em;
+                width: 99%;
+            }
+        }
