@@ -5,7 +5,7 @@ import Footer from "../../components/Footer/Footer";
 
 export const About = () => {
     return (
-        <section className="">
+        <section className="aboutContainer">
             <section>
                 <h1>Our Story</h1>
                 <Film film={film3}/>
