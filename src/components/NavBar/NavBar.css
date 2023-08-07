@@ -42,6 +42,15 @@
     text-transform: uppercase;
 }
 
+.white-background .logo{
+    color: black;
+}
+
+.white-background .link{
+    color: black;
+}
+
+
         /* Media Query for Laptops and Desktops */
         @media (min-width: 1025px){
             .mainContainer {

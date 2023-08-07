@@ -21,6 +21,12 @@
   padding: 2em;
 }
 
+.white-background {
+  background-color: white;
+  color: black;
+}
+
+
 .read-the-docs {
   color: #888;
 }
