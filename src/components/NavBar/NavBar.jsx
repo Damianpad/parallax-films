@@ -11,7 +11,7 @@ const NavBar = () => {
   const isOnSpecificPage = location.pathname === '/wedding';
 
   return (
-    <section className={isOnSpecificPage ? 'white-background mainContainer' : ''}>
+    <section className={isOnSpecificPage ? 'white-background' : 'mainContainer'}>
       <section className="logoContainer">
         <NavLink to="/" className={"logo"}>
           Parallax <br />Films

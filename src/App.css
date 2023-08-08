@@ -22,8 +22,12 @@
 }
 
 .white-background {
-  background-color: white;
+  background: white;
   color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 
