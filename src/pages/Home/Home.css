@@ -51,6 +51,8 @@
     cursor: pointer;
 }
 
+
+
         /* Media Query for Laptops and Desktops */
         @media (min-width: 1025px){
             .titleContainer{

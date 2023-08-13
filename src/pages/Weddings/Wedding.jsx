@@ -1,6 +1,7 @@
 import { useLocation } from "react-router-dom";
 import Film from "../../components/Film/Film";
 import "./Wedding.CSS";
+import Footer from "../../components/Footer/Footer";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
@@ -22,6 +23,10 @@ const Wedding = () => {
           ></iframe>
         </div>
       </Container>
+
+      <section>
+        <Footer />
+      </section>
     </section>
   );
 };

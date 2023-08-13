@@ -1,15 +1,20 @@
 import "./Footer.css";
+import { useLocation } from "react-router-dom";
 
 const Footer = () => {
+  const location = useLocation();
+  const isOnSpecificPage = location.pathname === '/wedding';
+
   return (
-    <section className="footerContainer">
+    <section className={isOnSpecificPage ? 'white-background' : 'footerContainer'}>
       <section className="logoContainer">
         <a href="/">
           Parallax <br /> Films
         </a>
       </section>
-      <section className="linkContainer">
+      <section className="footerLinkContainer">
         <a href="/">Home</a>
+        <a href="/wedding">Weddings</a>
         <a href="/about">About</a>
         <a href="/contact">Contact</a>
       </section>

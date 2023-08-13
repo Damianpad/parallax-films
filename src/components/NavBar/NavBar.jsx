@@ -14,7 +14,7 @@ const NavBar = () => {
     <section className={isOnSpecificPage ? 'white-background' : 'mainContainer'}>
       <section className="logoContainer">
         <NavLink to="/" className={"logo"}>
-          Parallax <br />Films
+          <img src="src\assets\img\NewParallaxLogoWIP3.png" alt="" />
         </NavLink>
         <FontAwesomeIcon icon={faBars} size="4x" fixedWidth className="bars"/>
       </section>

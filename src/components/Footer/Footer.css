@@ -7,6 +7,7 @@
     padding: 1em;
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .logoContainer a {
@@ -18,15 +19,19 @@
     text-transform: uppercase; 
 }
 
-.linkContainer {
+.footerLinkContainer{
     display: flex;
     flex-direction: column;
     text-align: right;
 } 
 
-.linkContainer a {
+.footerLinkContainer a {
     font-family: 'lexend';
     color: white;
     padding: .1em;
     text-transform: uppercase; 
+}
+
+.white-background a{
+    color: black;
 }
