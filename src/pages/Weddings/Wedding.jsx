@@ -23,7 +23,7 @@ const Wedding = () => {
           ></iframe>
         </div>
       </Container> */}
-      
+
       <section className="weddingTitleContainer">
         <h2>Turning Moments into Memories</h2>
       </section>
@@ -40,7 +40,7 @@ const Wedding = () => {
         <p>We believe that every couple has a unique and beautiful story to tell. With an unwavering commitment to preserving your cherished moments, we expertly capture the laughter, tears, and the unspoken connections that make your day extraordinary. From the tender glances to the grand celebrations, we weave each moment into a cinematic masterpiece that will transport you back to those magical moments every time you watch. Let us turn your love story into a timeless work of art.</p>
       </section>
 
-      <section className="featureFilmContainer">
+      <section className={isOnSpecificPage ? "white-background featureFilmContainer" : ""}>
         <h2>Films</h2>
         <Film className="videoContainer" />
       </section>
@@ -56,7 +56,7 @@ const Wedding = () => {
         
       </section>
 
-      <section className="weddingFooter">
+      <section className={isOnSpecificPage ? "white-background weddingFooter" : ""}>
         <Footer />
       </section>
     </section>

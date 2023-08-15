@@ -58,6 +58,7 @@
 .weddingFooter {
     width: 100%;
     border-top: 1px solid  rgba(255, 255, 255, 0.2);
+    height: 100%;
 }
 
 img {
@@ -105,6 +106,7 @@ iframe {
 
     .videoContainer {
         margin: 2em;
+        
     }
 }
 
