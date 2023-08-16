@@ -6,7 +6,7 @@ const Footer = () => {
   const isOnSpecificPage = location.pathname === '/wedding';
 
   return (
-    <section className={isOnSpecificPage ? 'white-background' : 'footerContainer'}>
+    <section className={isOnSpecificPage ? 'footerContainer ' : 'footerContainer'}>
       <section className="logoContainer">
         <a href="/">
           Parallax <br /> Films

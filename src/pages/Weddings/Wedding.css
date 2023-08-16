@@ -1,30 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&family=Playfair+Display&display=swap');
+
 .weddingContainer {
     background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.weddingContainer h2 {
+    padding: 1em;
+    text-align: center;
+    font-size: 45px;
+    
+}
+
+.weddingTitleContainer {
     height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    background: url("src/assets/img/parallax_couple.png") no-repeat center;
+    color: white;  
+    display: grid;
+    grid-template-rows: 1fr;
+    margin-top: -150px; 
+}
+
+
+.aboutWeddingFilms p{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
 }
 
 .imgContainer {
-    width: 98%;
+    /* width: 98%;
     height: 97%;
     object-fit: cover;
     margin: 1em;
-    border-radius: 15px;
-
+    border-radius: 15px; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.container {
+
+.weddingFooter {
     width: 100%;
+    border-top: 1px solid  rgba(255, 255, 255, 0.2);
 }
 
 img {
     margin: 0;
+    border-radius: 15px;
+    width: 100%;
+    
 }
 
 iframe {
     width: 100%;
     border-radius: 15px;
 }
+
+.ctaContainer{
+    background: #303033;
+    width: 100%;
+    padding: 2em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.socialContainer {
+    width: 100%;
+    color: white;
+}
+
+.socialContainer h2 {
+    background: #303033;
+    padding: .3em;
+}
+
+.socialContainer img {
+    border-radius: 0px;
+}
+
