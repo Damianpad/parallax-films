@@ -33,6 +33,9 @@
     margin-top: -150px; 
 }
 
+.aboutWeddingFilms {
+    background: white;
+}
 
 .aboutWeddingFilms p{
     font-family: 'Playfair Display', serif;
@@ -92,5 +95,16 @@ iframe {
 
 .socialContainer img {
     border-radius: 0px;
+}
+
+
+@media (min-width: 1025px){
+    .weddingContainer {
+        margin-left: 250px;
+    }
+
+    .videoContainer {
+        margin: 2em;
+    }
 }
 

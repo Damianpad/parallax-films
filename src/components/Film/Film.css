@@ -2,8 +2,8 @@
 
 .filmContainer {
     border-radius: 15px;
-    width: 93%;
-    margin: 1em auto;
+    width: 90%;
+    margin: 0 auto;
 }
 
 video {
@@ -44,9 +44,13 @@ span {
         /* Media Query for Laptops and Desktops */
         @media (min-width: 1025px){
             .filmContainer {
+               
                 height: 95vh;
                 padding: 0;
-                margin: 0.4em;
-                width: 99%;
+                margin: 0.4em auto;
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
         }
