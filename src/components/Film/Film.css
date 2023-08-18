@@ -27,7 +27,7 @@ video {
     position: relative;
 } */
 
-span {
+/* span {
     z-index: 1;
     position: absolute;
     top: 15%;
@@ -40,7 +40,7 @@ span {
     writing-mode: vertical-rl;
     text-orientation: mixed;
     height: 195px;
-}
+} */
 
         /* Media Query for Laptops and Desktops */
         @media (min-width: 1025px){

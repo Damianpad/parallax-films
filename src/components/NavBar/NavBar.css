@@ -4,10 +4,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     background: black;
     
 }
-.logoContainer {
+
+
+.mainLogoContainer {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -60,9 +63,73 @@
     
 }
 
+.hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 35px;
+    height: 25px;
+    cursor: pointer;
+    user-select: none;
+    z-index: 3;
+    padding: 1.2em;
+    margin-right: 1em;
+}
+
+.hamburger .meat {
+    border-radius: 2px;
+    width: 100%;
+    position: absolute;
+    height: 3px;
+    background: #fff;
+    display: block;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hamburger .meat:first-child {
+    top: 0;
+}
+
+.hamburger .meat:nth-child(2),
+.hamburger .meat:nth-child(3) {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hamburger .meat:last-child {
+    bottom: 0;
+}
+
+.close .meat:first-child,
+.close .meat:last-child {
+    opacity: 0;
+}
+
+.close .meat:first-child {
+    transform: translateY(20px) scale(0);
+}
+
+.close .meat:last-child {
+    transform: translateY(-20px) scale(0);
+}
+
+.close .meat:nth-child(2) {
+    transform: rotate(45deg);
+}
+
+.close .meat:nth-child(3) {
+    transform: rotate(-45deg);
+}
+
+
 
         /* Media Query for Laptops and Desktops */
         @media (min-width: 1025px){
+            .hamburger {
+                display: none;
+            }
+
             .mainContainer {
                 display: flex;
                 flex-direction: column;

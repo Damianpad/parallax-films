@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -9,16 +10,30 @@ import  Logo  from "../../../public/img/NewParallaxLogoWIP3.png"
 
 const NavBar = () => {
   const location = useLocation();
-
   const isOnSpecificPage = location.pathname === '/wedding';
+
+  const [toggleNav, setToggleNav] = useState(false);
+
+  const toggleState = () => {
+    setToggleNav(!toggleNav);
+  }
 
   return (
     <section className={isOnSpecificPage ? 'white-background navContainer' : 'mainContainer'}>
-      <section className="logoContainer">
+      <section className="mainLogoContainer">
         <NavLink to="/" className={"logo"}>
           <img src={ Logo } alt="" />
         </NavLink>
-        <FontAwesomeIcon icon={faBars} size="4x" fixedWidth className="bars"/>
+
+        <NavLink
+              className={toggleNav ? "hamburger close" : "hamburger"}
+              onClick={toggleState}
+            >
+              <span className="meat"></span>
+              <span className="meat"></span>
+              <span className="meat"></span>
+              <span className="meat"></span>
+            </NavLink>
       </section>
 
       <section className="linkContainer">
