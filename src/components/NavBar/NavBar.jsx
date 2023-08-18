@@ -3,6 +3,8 @@ import "./NavBar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { useLocation } from "react-router-dom";
+import  Logo  from "../../../public/img/NewParallaxLogoWIP3.png"
+
 
 
 const NavBar = () => {
@@ -14,7 +16,7 @@ const NavBar = () => {
     <section className={isOnSpecificPage ? 'white-background navContainer' : 'mainContainer'}>
       <section className="logoContainer">
         <NavLink to="/" className={"logo"}>
-          <img src="src\assets\img\NewParallaxLogoWIP3.png" alt="" />
+          <img src={ Logo } alt="" />
         </NavLink>
         <FontAwesomeIcon icon={faBars} size="4x" fixedWidth className="bars"/>
       </section>

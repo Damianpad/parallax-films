@@ -26,7 +26,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: url("src/assets/img/parallax_couple.png") no-repeat center;
+    background: url("/public/img/parallax_couple.png") no-repeat center;
     color: white;  
     display: grid;
     grid-template-rows: 1fr;
