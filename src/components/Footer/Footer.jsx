@@ -3,13 +3,17 @@ import { useLocation } from "react-router-dom";
 
 const Footer = () => {
   const location = useLocation();
-  const isOnSpecificPage = location.pathname === '/wedding';
+  const isOnSpecificPage = location.pathname === "/wedding";
 
   return (
-    <section className={isOnSpecificPage ? 'footerContainer ' : 'footerContainer'}>
+    <section
+      className={isOnSpecificPage ? "footerContainer " : "footerContainer"}
+    >
       <section className="logoContainer">
         <a href="/">
-          Parallax <br /> Films
+          Parallax
+          <br />
+          Films
         </a>
       </section>
       <section className="footerLinkContainer">

@@ -34,7 +34,8 @@
 }
 
 .aboutWeddingFilms {
-    background: white;
+        background: #303033;
+        color: white;
 }
 
 .aboutWeddingFilms p{
@@ -99,15 +100,37 @@ iframe {
     border-radius: 0px;
 }
 
+.featureFilmContainer {
+    padding: 1em 2em 2em 2em;
+}
+
+.featureFilmContainer h2 {
+    padding: 0;
+    margin: 0;
+}
+
 
 @media (min-width: 1025px){
     .weddingContainer {
         margin-left: 250px;
+
     }
 
     .videoContainer {
         margin: 2em;
         
+    }
+
+
+
+    .aboutWeddingFilms p{
+
+        margin: 0 auto;
+        max-width: 70%;
+    }
+
+    .socialContainer {
+        max-width: 1000px;
     }
 }
 

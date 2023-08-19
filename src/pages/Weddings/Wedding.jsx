@@ -9,8 +9,9 @@ import { Container } from "react-bootstrap";
 
 const Wedding = () => {
   const location = useLocation();
-
   const isOnSpecificPage = location.pathname === "/wedding";
+
+  
   return (
     <section
       className={isOnSpecificPage ? "white-background weddingContainer" : ""}

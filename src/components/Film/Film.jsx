@@ -12,14 +12,14 @@ const Film = (props) => {
   const videoSrc = WeddingHighlight;
   const poster = "src/assets/img/parallax_couple.png";
   return (
-    <section  className={isOnWeddingPage ? "white-background filmContainer" : " "}>
+    <section
+      className={isOnWeddingPage ? "white-background filmContainer" : " "}
+    >
       {/* <span>Video title 1</span> */}
       {/* <img src={props.film} /> */}
+
       <video controls>
-        <source
-          src={videoSrc}
-          type="video/mp4"
-        />
+        <source src={videoSrc} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </section>
