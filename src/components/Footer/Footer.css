@@ -34,7 +34,11 @@
     text-transform: uppercase; 
 }
 
-.white-background a{
+.white-background .footerLink{
+    color: black;
+}
+
+.white-background .logoContainer a {
     color: black;
 }
 

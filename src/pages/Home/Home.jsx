@@ -12,9 +12,9 @@ import { Container } from "react-bootstrap";
 
 export const Home = () => {
   return (
-    <>
+    <section className="homeContainer">
       <section className="filmContainer">
-        <Container>
+        {/* <Container>
           <div className="ratio ratio-16x9">
             <iframe
               src="https://www.youtube.com/embed/-B6zY6ww_5w"
@@ -22,7 +22,7 @@ export const Home = () => {
               allowFullScreen
             ></iframe>
           </div>
-        </Container>
+        </Container> */}
       </section>
 
       <section className="titleContainer">
@@ -30,7 +30,7 @@ export const Home = () => {
 
         <section className="carouselContainer">
           <FontAwesomeIcon icon={faArrowLeft} className="arrow" />
-          <Container>
+          {/* <Container>
             <div className="ratio ratio-16x9">
               <iframe
                 src="https://www.youtube.com/embed/WcGFKH5ZtcE"
@@ -38,7 +38,7 @@ export const Home = () => {
                 allowFullScreen
               ></iframe>
             </div>
-          </Container>
+          </Container> */}
           <FontAwesomeIcon icon={faArrowRight} className="arrow" />
         </section>
 
@@ -47,7 +47,7 @@ export const Home = () => {
           <section className="aboutInfo">
             <p>Parallax Films is a creative agency for brands everywhere.</p>
 
-            <Container>
+            {/* <Container>
             <div className="ratio ratio-16x9">
               <iframe
                 src="https://www.youtube.com/embed/no2_4dtmuJ4"
@@ -55,7 +55,7 @@ export const Home = () => {
                 allowFullScreen
               ></iframe>
             </div>
-          </Container>
+          </Container> */}
 
           </section>
           <a href="/about">Learn More</a>
@@ -65,6 +65,6 @@ export const Home = () => {
           <Footer />
         </section>
       </section>
-    </>
+    </section>
   );
 };

@@ -17,10 +17,10 @@ const Footer = () => {
         </a>
       </section>
       <section className="footerLinkContainer">
-        <a href="/">Home</a>
-        <a href="/wedding">Weddings</a>
-        <a href="/about">About</a>
-        <a href="/contact">Contact</a>
+        <a href="/" className="footerLink">Home</a>
+        <a href="/wedding" className="footerLink">Weddings</a>
+        <a href="/about" className="footerLink">About</a>
+        <a href="/contact" className="footerLink">Contact</a>
       </section>
     </section>
   );

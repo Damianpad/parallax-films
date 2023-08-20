@@ -55,9 +55,9 @@
 
         /* Media Query for Laptops and Desktops */
         @media (min-width: 1025px){
-            .titleContainer{
-                display: none;
-                padding: 1em;
+            
+            .homeContainer{
+                width: 100%;
             }
 
         }
